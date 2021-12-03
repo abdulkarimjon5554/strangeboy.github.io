@@ -1,0 +1,2 @@
+# strangeboy.github.io
+salom
