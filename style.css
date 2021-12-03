@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.header-top .container .row .navbar .collapse .navbar-nav .nav-item .nav-link{
+    color: aqua;
+}
+header{
+  background-image: url(./img/1947484.jpg);
+ background-size: cover;
+}
+.header-top .container  .navbar{
+    background-color: rgb(167, 110, 224, 0.6);
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+   
+}
+.header-top{
+    background: rgb(167, 110, 224, 1);
+}
+
+.h3{
+    margin-left: 30px;
+    margin-top: 200px;
+    font-size: 30px;
+color: aqua;
+margin-top: 50px;
+}
+.h1{
+   margin-left: 10px;
+    margin-top: 50px;
+    font-size: 40px;
+color: aqua;
+width: auto;
+}
+.p{
+    margin-left: 30px;
+    margin-top: 50px;
+    font-size: 20px;
+color: aqua;
+margin-bottom: 30px;
+}
+
+.fa{
+    background: none;
+    color: rgb(17, 157, 250);
+    font-size: 30px;
+    margin-bottom: 40px;
+}
+body{
+    background: black;
+}
+
+footer{
+    background: white;
+}
+.section-top{
+    background: white;
+   
+}
+h1{
+    padding-left: 30px;
+}
+p{
+    padding-left: 15px;
+    color: violet;
+}
+h2{
+    color: violet;
+}
+.main_img{
+    position: relative;
+}
+.rasm_blok{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.rasm_blok{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    /* opacity: 0; */
+    transform: scale(0);
+    transition: 800ms;
+}
+.main_img:hover .rasm_blok{
+    /* opacity: 1; */
+    transform: scale(1);
+}
+.main_img:hover img{
+    opacity: 0.6;
+   
+}

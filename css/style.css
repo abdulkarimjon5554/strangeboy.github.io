@@ -1,0 +1,87 @@
+.menu{
+    width: 1000px;
+    height: 700px;
+    background: grey;
+    margin: auto;
+    animation: animate 2s linear infinite;
+
+}
+.box{
+    width: 200px;
+    transition: 2s;
+    height: 200px;
+    background: red;
+    /* transform: translateX(200px) translateY(100px); */
+    transform: translateX(100px);
+    /* margin-left: 200px; */
+    animation: animate 1s linear infinite;
+}
+/* .menu:hover .box{
+    transform: scale(1);
+} */
+
+
+@keyframes animate {
+    to{
+        background: green;
+        transform: translateX(200px);
+    }
+    from{
+        background: yellow;
+        transform: translateX(000px);
+    }
+    0%{
+        background: yellow;
+        transform: translateX(200px);
+    }
+    25%{
+        background: red;
+        transform: translateX(400px);
+    }
+    50%{
+        background: green;
+        transform: translateX(500px);
+    }
+    100%{
+        background: black;
+        transform: translateX(0px);
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.well{
+    height: 50px;
+    background: grey;
+    border: 1px solid red;
+}
+.bi{
+    background: red;
+    color: white;
+}
+
+.fa.fa-facebook{
+    color: red;
+    font-size: 40px;
+}
